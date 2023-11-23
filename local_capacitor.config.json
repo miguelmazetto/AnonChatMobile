@@ -1,0 +1,16 @@
+{
+  "appId": "com.mmz.anonchat",
+  "appName": "AnonChat",
+  "webDir": "www",
+  "overrideUserAgent": "AnonChatMobile",
+  "server": {
+    "androidScheme": "http",
+    "url": "http://<ip do backend>:3000",
+  	"cleartext": true
+  },
+  "plugins": {
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}
